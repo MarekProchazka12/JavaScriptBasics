@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    font-family: 'Righteous';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+ ul > span{
+     color:white;
+     font-family: 'Righteous';
+     font-size: 2em;
+     margin-left: 10px;
+ }
+
+ #alba{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+#PaS{
+    justify-content: right;
+    margin-top: 100px;
+    padding: 20px;
+    background-image: url("../assets/images/PaS.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .4s; 
+    width: 200px;
+     height: 200px;
+     margin: 0 auto;
+}
+
+#Bar{
+  justify-content: right;
+  margin-top: 100px;
+  padding: 20px;
+  background-image: url("../assets/images/Barvy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform .4s; 
+  width: 200px;
+   height: 200px;
+   margin: 0 auto;
+}
+
+#CBS{
+  justify-content: right;
+  margin-top: 100px;
+  padding: 20px;
+  background-image: url("../assets/images/ČBS.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform .4s; 
+  width: 200px;
+   height: 200px;
+   margin: 0 auto;
+}
+
+
+.hover {
+    transform: scale(1.2);
+  }
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+}
+
+.parallax{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .90;
+  background-image: url("../assets/images/parallax.jpg");
+  min-height: 100%;
+
+}
+
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px;
+  color: #333;
+}
+
+.txt2 > h3{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px;
+  color: white;
+}
+
+
+
+.txt1{
+  color:#333;
+  background-color:rgba(245, 245, 245, 0.20);
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+.txt2{
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+  position:relative;
+}
+
+
+.footer{
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:5px;
+  text-align: center;
+  position:relative;
+}
+
+
+/* CAROUSEL */
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
